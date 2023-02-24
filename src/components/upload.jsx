@@ -3,10 +3,8 @@ export function Upload () {
   return (
     <>
       <div className="page-top-section flex-1">
-        <a href="#" className="back-arrow d-flex mb-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-          </svg>
+        <a href="#" className="back-arrow d-flex mb-3 text-decoration-none">
+          <i class="material-icons">keyboard_arrow_left</i>
         </a>
         <div className="image-upload-box d-flex align-items-center justify-content-center border mb-2 mx-auto">
         </div>
