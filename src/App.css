@@ -4,8 +4,8 @@
 }
 
 .image-upload-box {
-  width: 342px;
-  height: 342px;
+  width: 100%;
+  height: 400px;
   background-color: #363636;
   border-radius: 16px;
 }
@@ -34,7 +34,7 @@ input[type="file"] {
 }
 
 .btn {
-  padding: 16px 32px;
+  padding: 16px 48px;
   border-radius: 8px;
   font-size: 14px;
   font-weight: bold;
@@ -54,10 +54,17 @@ input[type="file"] {
   box-shadow: unset;
 }
 
-.btn-default {
+.btn-default, .btn-default:hover, .btn-default:focus {
   background-color: #29B3B9;
+  color: #FFFFFF;
 }
 
 .camera-page-btns .btn-default {
   padding: 16px 64px;
+}
+
+.btn-white, .btn-white:hover, .btn-white:focus {
+  background: rgba(255, 255, 255, 0.61);
+  font-size: 14px;
+  color: #333333;
 }

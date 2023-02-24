@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: #FFFFFF;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -43,4 +50,18 @@ body {
 
 .flex-1 {
   flex: 1 !important;
+}
+
+/* Placeholder */
+input::placeholder {
+  color: #FFFFFF !important;
+  opacity: 1 !important; /* Firefox */
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FFFFFF !important;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FFFFFF !important;
 }
