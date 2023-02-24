@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="jv-page d-flex flex-column mx-auto text-center py-5 px-4">
       <h6 className="main-heading mb-4 text-white">What do you wanna create?</h6>
-      {/* <Camera/> */}
+      <Camera/>
       {/* <Upload/>  */}
       <Result/>
     </div>
