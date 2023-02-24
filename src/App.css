@@ -34,7 +34,7 @@ input[type="file"] {
 }
 
 .btn {
-  padding: 16px 48px;
+  padding: 16px 56px;
   border-radius: 8px;
   font-size: 14px;
   font-weight: bold;
@@ -63,8 +63,7 @@ input[type="file"] {
   padding: 16px 64px;
 }
 
-.btn-white, .btn-white:hover, .btn-white:focus {
-  background: rgba(255, 255, 255, 0.61);
-  font-size: 14px;
-  color: #333333;
+.back-arrow svg {
+  color: #ffffff;
+  font-weight: bold;
 }

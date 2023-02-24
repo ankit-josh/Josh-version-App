@@ -6,9 +6,7 @@ export function Result () {
         <div className="image-upload-box d-flex align-items-center justify-content-center border mb-5 mx-auto">
         </div>
       </div>
-      <button class="btn btn-white w-75 mx-auto mb-4">
-        Show me variations
-      </button>
+      <input type="text" className="form-control p-3 jv-input text-white mb-4" placeholder="Add Prompt here" />
       <div className="button-grp">
         <button className="btn btn-dark text-uppercase">
           Restart
