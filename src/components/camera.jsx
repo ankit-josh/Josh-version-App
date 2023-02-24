@@ -13,7 +13,7 @@ export function Camera () {
           <input type="file" />
           Upload a photo
         </label>
-        <button class="btn btn-default text-uppercase d-block m-auto">
+        <button className="btn btn-default text-uppercase d-block m-auto">
           Next
         </button>
       </div>
